@@ -1,0 +1,22 @@
+.note-container {
+  height: 100%;
+}
+
+.note-container h1 {
+  margin-bottom: 20px;
+}
+
+.note-container_notes {
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-y: scroll;
+}
+.note-container_notes h3 {
+  height: fit-content;
+  background-color: black;
+  color: yellowgreen;
+  padding: 20px;
+  border-radius: 10pc;
+}
